@@ -13314,7 +13314,7 @@ function $c_Lchoreo_frontend_ICECaos$() {
     return $m_Lchoreo_DSL$().parse__T__Lchoreo_syntax_Choreo(choreo$1)
   }))(this));
   $m_s_package$();
-  var elems = $m_sr_ScalaRunTime$().wrapRefArray__AO__sci_ArraySeq(new ($d_Lcaos_common_Example.getArrayOf().constr)([new $c_Lcaos_common_Example("(m->w1:t;w1->m:d) ||\n(m->w2:t;w2->m:d)", "MC", "Master-Workers protocol"), new $c_Lcaos_common_Example("((a->b:y || a->c:y) +\n (a->b:n || a->c:n))   ||\n((b->a:y || b->c:y) +\n (b->a:n || b->c:n))   ||\n((c->a:y || c->b:y) +\n (c->a:n || c->b:n))", "DV", "Distribted Voting protocol with 3 participants"), new $c_Lcaos_common_Example("(a->b:x + a->c:x) ;(d->b:x + d->e:x)", "Ex.1.1", ""), new $c_Lcaos_common_Example("(a->b:x + c->b:x)* ||\n(c->a:x + c->b:x)", "Ex.1.2", ""), new $c_Lcaos_common_Example("(a->b:x + a->c:x)*", "Ex.2.1 (not dep-guard)", "Not dependently guarded example"), new $c_Lcaos_common_Example("(a->b:x + b->a:x)*", "Ex.2.2 (dep-guard)", "Dependently guarded example"), new $c_Lcaos_common_Example("a->b:x;\n(b->c:x+b->d:x);\nc->d:x", "Fig.5", ""), new $c_Lcaos_common_Example("((a->b:x ;(b->a:x + b->d:x))+\n(a->c:x ;(c->a:x + c->d:x))) ; d->a:x", "Fig.6", "")]));
+  var elems = $m_sr_ScalaRunTime$().wrapRefArray__AO__sci_ArraySeq(new ($d_Lcaos_common_Example.getArrayOf().constr)([new $c_Lcaos_common_Example("(m->w1:t;w1->m:d) ||\n(m->w2:t;w2->m:d)", "MC", "Master-Workers protocol"), new $c_Lcaos_common_Example("((a->b:y || a->c:y) +\n (a->b:n || a->c:n))   ||\n((b->a:y || b->c:y) +\n (b->a:n || b->c:n))   ||\n((c->a:y || c->b:y) +\n (c->a:n || c->b:n))", "DV", "Distribted Voting protocol with 3 participants"), new $c_Lcaos_common_Example("(a->b:x + a->c:x);\n(d->b:x + d->e:x)", "Ex.1.1", ""), new $c_Lcaos_common_Example("(a->b:x + c->b:x)* ||\n(c->a:x + c->b:x)", "Ex.1.2", ""), new $c_Lcaos_common_Example("(a->b:x + a->c:x)*", "Ex.2.1 (not dep-guard)", "Not dependently guarded example"), new $c_Lcaos_common_Example("(a->b:x + b->a:x)*", "Ex.2.2 (dep-guard)", "Dependently guarded example"), new $c_Lcaos_common_Example("a->b:x;\n(b->c:x+b->d:x);\nc->d:x", "Fig.5", ""), new $c_Lcaos_common_Example("((a->b:x ;(b->a:x + b->d:x))+\n(a->c:x ;(c->a:x + c->d:x))) ; d->a:x", "Fig.6", "")]));
   this.Lchoreo_frontend_ICECaos$__f_examples = $m_sci_Nil$().prependedAll__sc_IterableOnce__sci_List(elems);
   $m_s_package$();
   var $$x7 = $m_sr_ScalaRunTime$();
@@ -22935,7 +22935,7 @@ $c_Lchoreo_npomsets_NPomset.prototype.toString__T = (function() {
     return (($uI(x$1$1.T2__f__1) + ":") + $as_Lchoreo_syntax_Choreo$Action(x$1$1.T2__f__2))
   }))));
   var sAct = $f_sc_IterableOnceOps__mkString__T__T__T__T(this$1, "", ",", "");
-  var this$2 = this.Lchoreo_npomsets_NPomset__f_pred;
+  var this$2 = this.reducedPred__sci_Map();
   var p = new $c_sjsr_AnonFunction1(((x$1$2) => {
     var x$1$3 = $as_T2(x$1$2);
     return ((x$1$3 !== null) && ($uI(x$1$3.T2__f__1), $as_sci_Set(x$1$3.T2__f__2), true))
