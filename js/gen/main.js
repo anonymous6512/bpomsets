@@ -13368,7 +13368,7 @@ function $c_Lchoreo_frontend_ICECaos$() {
     var p$1 = $as_Lchoreo_npomsets_NPomset(p);
     return $m_Lchoreo_view_MermaidNPomset$().apply__Lchoreo_npomsets_NPomset__T(p$1)
   }))(this)), $m_Lcaos_view_Mermaid$());
-  var $$x1 = new $c_T2("Simulate B-Pomset", y$5);
+  var $$x1 = new $c_T2("Simulate B-Pomset (no loops)", y$5);
   var y$6 = $m_Lcaos_frontend_Configurator$().compareBranchBisim__Lcaos_sos_SOS__Lcaos_sos_SOS__F1__F1__Lcaos_frontend_widgets_WidgetInfo($m_Lchoreo_sos_ChorDefSOS$(), $m_Lchoreo_npomsets_NPomDefSOS$(), new $c_sjsr_AnonFunction1(((this$12$1) => ((x) => {
     var x$1 = $as_Lchoreo_syntax_Choreo(x);
     return x$1
@@ -13376,7 +13376,7 @@ function $c_Lchoreo_frontend_ICECaos$() {
     var c$8 = $as_Lchoreo_syntax_Choreo(c$7$1);
     return $m_Lchoreo_npomsets_Choreo2NPom$().apply__Lchoreo_syntax_Choreo__Lchoreo_npomsets_NPomset(c$8)
   }))(this)));
-  var elems$1 = $$x7.wrapRefArray__AO__sci_ArraySeq(new ($d_T2.getArrayOf().constr)([$$x6, $$x5, $$x4, $$x3, $$x2, $$x1, new $c_T2("Choreo vs B-Pomset (find bisimulation)", y$6)]));
+  var elems$1 = $$x7.wrapRefArray__AO__sci_ArraySeq(new ($d_T2.getArrayOf().constr)([$$x6, $$x5, $$x4, $$x3, $$x2, $$x1, new $c_T2("Choreo vs B-Pomset (find bisimulation - no loops)", y$6)]));
   this.Lchoreo_frontend_ICECaos$__f_widgets = $m_sci_Nil$().prependedAll__sc_IterableOnce__sci_List(elems$1)
 }
 $c_Lchoreo_frontend_ICECaos$.prototype = new $h_O();
